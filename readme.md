@@ -19,7 +19,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [10: destructuring - array](#10-destructuring---array)
 - [11: destructuring - string](#11-destructuring---string)
 
-## 1: template strings - basic
+## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript
 // 1: template strings - basics
 // To do: make all tests pass, leave 	the asserts unchanged!
@@ -71,7 +71,7 @@ describe('a template string, is wrapped in ` (backticks) instead of \' or "', fu
   
 });
 ```
-## 2: template strings - multiline
+## 2: template strings - multiline [🔝](#list-of-katas)
 ```javascript
 // 2: template strings - multiline
 // To do: make all tests pass, leave the asserts unchanged!
@@ -120,7 +120,7 @@ ${x}`;
 });
 ```
 
-## 3: template strings - tagged
+## 3: template strings - tagged [🔝](#list-of-katas)
 ```javascript
 // 3: template strings - tagged
 // To do: make all tests pass, leave the asserts unchanged!
@@ -186,7 +186,7 @@ describe('tagged template strings, are an advanced form of template strings', fu
 
 });
 ```
-## 4: template strings - String.raw
+## 4: template strings - String.raw [🔝](#list-of-katas)
 ```javascript
 // 4: template strings - String.raw
 // To do: make all tests pass, leave the asserts unchanged!
@@ -229,7 +229,7 @@ describe('on tagged template strings you can use the `raw` property like so `s.r
   });
 });
 ```
-## 5: arrow functions - basics
+## 5: arrow functions - basics [🔝](#list-of-katas)
 ```javascript
 // 5: arrow functions - basics
 // To do: make all tests pass, leave the asserts unchanged!
@@ -265,7 +265,7 @@ describe('arrow functions', function() {
 
 });
 ```
-## 6: arrow functions - binding
+## 6: arrow functions - binding [🔝](#list-of-katas)
 ```javascript
 // 6: arrow functions - binding
 // To do: make all tests pass, leave the asserts unchanged!
@@ -314,7 +314,7 @@ describe('arrow functions have lexical `this`, no dynamic `this`', () => {
 });
 
 ```
-## 7: block scope - let
+## 7: block scope - let [🔝](#list-of-katas)
 ```javascript
 // 7: block scope - let
 // To do: make all tests pass, leave the asserts unchanged!
@@ -358,7 +358,7 @@ describe('`let` restricts the scope of the variable to the current block', () =>
   
 });
 ```
-## 8: block scope - const
+## 8: block scope - const [🔝](#list-of-katas)
 ```javascript
 // 8: block scope - const
 // To do: make all tests pass, leave the asserts unchanged!
@@ -408,7 +408,7 @@ describe('`const` is like `let` plus read-only', () => {
 });
 
 ```
-## 9: object-literals - basics
+## 9: object-literals - basics [🔝](#list-of-katas)
 ```javascript
 // 9: object-literals - basics
 // To do: make all tests pass, leave the assert lines unchanged!
@@ -455,7 +455,7 @@ describe('The object literal allows for new shorthands', () => {
   
 });
 ```
-## 10: destructuring - array
+## 10: destructuring - array [🔝](#list-of-katas)
 ```javascript
 // 10: destructuring - array
 // To do: make all tests pass, leave the assert lines unchanged!
@@ -501,7 +501,7 @@ describe('destructuring arrays makes shorter code', () => {
 });
 ```
 
-## 11: destructuring - string
+## 11: destructuring - string [🔝](#list-of-katas)
 ````javascript
 // 11: destructuring - string
 // To do: make all tests pass, leave the assert lines unchanged!

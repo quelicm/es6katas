@@ -20,6 +20,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [11: destructuring - string](#11-destructuring---string-)
 - [12: destructuring - object](#12-destructuring---object-)
 - [13: destructuring - defaults](#13-destructuring---defaults-)
+- [14: destructuring - parameters](#14-destructuring---parameters-)
 
 ## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript
@@ -603,6 +604,62 @@ describe('destructuring can also have default values', () => {
     const [a,b=2] = '1';
     assert.equal(a, '1');
     assert.equal(b, 2);
+  });
+
+});
+```
+
+## 14: destructuring - parameters [🔝](#list-of-katas)
+```javascript
+// 14: destructuring - parameters
+// To do: make all tests pass, leave the assert lines unchanged!
+
+describe('destructuring function parameters', () => {
+
+  describe('destruct parameters', () => {
+    it('multiple params from object', () => {
+      const fn = ({id,name}) => {
+        assert.equal(id, 42);
+        assert.equal(name, 'Wolfram');
+      };
+      const user = {name: 'Wolfram', id: 42};
+      fn(user);
+    });
+    
+    it('multiple params from array/object', () => {
+      const fn = ([,{name}]) => {
+        assert.equal(name, 'Alice');
+      };
+      const users = [{name: 'nobody'}, {name: 'Alice', id: 42}];
+      fn(users);
+    });
+  });
+
+  describe('default values', () => {
+    it('for simple values', () => {
+      const fn = (id, name='Bob') => {
+        assert.strictEqual(id, 23);
+        assert.strictEqual(name, 'Bob');
+      };
+      fn(23);
+    });
+    
+    it('for a missing array value', () => {
+      const defaultUser = {id: 23, name: 'Joe'};
+      const fn = ([user = {id: 23, name: 'Joe'}] ) => {
+        assert.deepEqual(user, defaultUser);
+      };
+      fn([]);
+    });
+    
+    it('mix of parameter types', () => {
+      const fn = (id = 1, [arr = 2], {obj = 3} ) => {
+        assert.equal(id, 1);
+        assert.equal(arr, 2);
+        assert.equal(obj, 3);
+      };
+      fn(void 0, [], {});
+    });
   });
 
 });

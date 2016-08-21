@@ -7,17 +7,17 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 
 ## List of katas
 
-- [1: template strings - basic](#1-template-strings---basic)
-- [2: template strings - multiline](#2-template-strings---multiline)
-- [3: template strings - tagged](#3-template-strings---tagged)
-- [4: template strings - String.raw](#4-template-strings---String.raw)
-- [5: arrow functions - basics](#5-arrow-functions---basics)
-- [6: arrow functions - binding](#6-arrow-functions---binding)
-- [7: block scope - let](#7-block-scope---let)
-- [8: block scope - const](#8-block-scope---const)
-- [9: object-literals - basics](#9-object-literals---basics)
-- [10: destructuring - array](#10-destructuring---array)
-- [11: destructuring - string](#11-destructuring---string)
+- [1: template strings - basic](#1-template-strings---basic-)
+- [2: template strings - multiline](#2-template-strings---multiline-)
+- [3: template strings - tagged](#3-template-strings---tagged-)
+- [4: template strings - String.raw](#4-template-strings---String.raw-)
+- [5: arrow functions - basics](#5-arrow-functions---basics-)
+- [6: arrow functions - binding](#6-arrow-functions---binding-)
+- [7: block scope - let](#7-block-scope---let-)
+- [8: block scope - const](#8-block-scope---const-)
+- [9: object-literals - basics](#9-object-literals---basics-)
+- [10: destructuring - array](#10-destructuring---array-)
+- [11: destructuring - string](#11-destructuring---string-)
 
 ## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript

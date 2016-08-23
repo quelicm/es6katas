@@ -24,7 +24,8 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [15: destructuring - assign](#15-destructuring---assign-)
 - [16: object-literal - computed properties](#16-object-literal---computed-properties-)
 - [17: unicode - in strings](#17-unicode---in-strings-)
-- [18: rest - as-parameter](18-rest---as-parameter-)
+- [18: rest - as-parameter](#18-rest---as-parameter-)
+- [19: rest - with-destructuring](#19-rest---with-destructuring-)
 
 ## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript
@@ -809,4 +810,38 @@ describe('rest in function params', () => {
   });
     
 });
+```
+
+## 19: rest - with-destructuring [🔝](#list-of-katas)
+```javascript
+// 19: rest - with-destructuring
+// To do: make all tests pass, leave the assert lines unchanged!
+
+describe('rest with destructuring', () => {
+    
+  it('rest parameter must be last', () => {
+    const [...all] = [1, 2, 3, 4];
+    assert.deepEqual(all, [1, 2, 3, 4]);
+  });
+  
+  it('assign rest of an array to a variable', () => {
+    const [x,...all] = [1, 2, 3, 4];
+    assert.deepEqual(all, [2, 3, 4]);
+  });
+  
+  // the following are actually using `spread` ... oops, to be fixed
+  it('concat differently', () => {
+    const theEnd = [3, 4];
+    const allInOne = [1, 2, ...theEnd];
+    assert.deepEqual(allInOne, [1, 2, 3, 4]);
+  });
+  
+  it('`apply` made simple, even for constructors', () => {
+    const theDate = [2015, 1, 1];
+    const date = new Date(...theDate);
+    assert.deepEqual(new Date(2015, 1, 1), date);
+  });
+  
+});
+
 ```

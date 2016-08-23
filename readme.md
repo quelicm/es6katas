@@ -23,6 +23,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [14: destructuring - parameters](#14-destructuring---parameters-)
 - [15: destructuring - assign](#15-destructuring---assign-)
 - [16: object-literal - computed properties](#16-object-literal---computed-properties-)
+- [17: unicode - in strings](#17-unicode---in-strings-)
 
 ## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript
@@ -742,3 +743,32 @@ describe('Object literal properties may be computed values', () => {
   });
 });
 ``` 
+## 17: unicode - in strings
+```javascripts
+// 17: unicode - in strings
+// To do: make all tests pass, leave the assert lines unchanged!
+
+describe('unicode strings', () => {
+
+  it('are \\u prefixed', () => {
+    const nuclear = '\u2622';
+    assert.equal(nuclear, '☢');
+  });
+
+  it('value is 4 bytes/digits', () => {
+    const nuclear = '\u2622';
+    assert.equal(`no more ${nuclear}`, 'no more ☢');
+  });
+
+  it('value is hexadecimal', () => {
+    const nuclear = `\u006E\u006F more \u2622`;
+    assert.equal(nuclear, 'no more ☢');
+  });
+
+  it('curly braces may surround the value', () => {
+    const nuclear = `\u{006E}\u{006F} more \u2622`;
+    assert.equal(nuclear, 'no more ☢');
+  });
+
+});
+```

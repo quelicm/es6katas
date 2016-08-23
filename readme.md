@@ -24,6 +24,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [15: destructuring - assign](#15-destructuring---assign-)
 - [16: object-literal - computed properties](#16-object-literal---computed-properties-)
 - [17: unicode - in strings](#17-unicode---in-strings-)
+- [18: rest - as-parameter](18-rest---as-parameter-)
 
 ## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript
@@ -743,8 +744,8 @@ describe('Object literal properties may be computed values', () => {
   });
 });
 ``` 
-## 17: unicode - in strings
-```javascripts
+## 17: unicode - in strings [🔝](#list-of-katas)
+```javascript
 // 17: unicode - in strings
 // To do: make all tests pass, leave the assert lines unchanged!
 
@@ -770,5 +771,42 @@ describe('unicode strings', () => {
     assert.equal(nuclear, 'no more ☢');
   });
 
+});
+```
+
+## 18: rest - as-parameter [🔝](#list-of-katas)
+```javascript
+// 18: rest - as-parameter
+// To do: make all tests pass, leave the assert lines unchanged!
+
+describe('rest in function params', () => {
+    
+  it('must be the last parameter', () => {
+    const fn = (...rest) => {
+      assert.deepEqual([1, 2], rest);
+    };
+    fn(1, 2);
+  });
+  
+  it('can be used to get all other parameters', () => {
+    const fn = (firstParam, secondParam, ...rest) => {
+      assert.deepEqual([3,4], rest);
+    };
+    fn(null, 2, 3, 4);
+  });
+  
+  it('makes `arguments` obsolete', () => {
+    const fn = (...args) => {
+      assert.deepEqual([42, 'twenty three', 'win'], args);
+    };
+    fn(42, 'twenty three', 'win');
+  });
+    
+  it('eliminate `arguments`!!!', () => {
+    const fn = (...args) => args;
+    const [firstArg, ...rest] = fn(1, 2, 3);
+    assert.deepEqual([2, 3], rest);
+  });
+    
 });
 ```

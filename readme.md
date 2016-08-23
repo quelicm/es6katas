@@ -22,6 +22,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [13: destructuring - defaults](#13-destructuring---defaults-)
 - [14: destructuring - parameters](#14-destructuring---parameters-)
 - [15: destructuring - assign](#15-destructuring---assign-)
+- [16: object-literal - computed properties](#16-object-literal---computed-properties-)
 
 ## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript
@@ -702,3 +703,42 @@ describe('assign object property values to new variables while destructuring', (
   
 });
 ```
+## 16: object-literal - computed properties [🔝](#list-of-katas)
+```javascript
+// 16: object-literal - computed properties
+// To do: make all tests pass, leave the assert lines unchanged!
+
+describe('Object literal properties may be computed values', () => {
+
+  it('a computed property `x` needs to be surrounded by `[]`', () => {
+    const propertyName = 'x';
+    const obj = {[propertyName]: 1};
+    assert.equal(obj.x, 1);
+  });
+
+  it('can also get a function assigned', () => {
+    const key = 'func';
+    const obj = {[key]() { return 'seven'}};
+    assert.equal(obj.func(), 'seven');
+  });
+
+  it('the key may also be the result of a function call', () => {
+    const getName = () => 'propertyName';
+    const obj = {[[getName()]]() {return 'seven'}};
+    assert.equal(obj.propertyName(), 'seven');
+  });
+
+  it('the key can also be constructed by an expression', () => {
+    const what = 'Name';
+    const obj = {['property' + what]: null};
+    assert.equal('propertyName' in obj, true);
+  });
+
+  it('accessor keys can be computed names too', () => {
+    const obj = {
+      get ['key']() {return 1}
+    };
+    assert.equal(obj.key, 1);
+  });
+});
+``` 

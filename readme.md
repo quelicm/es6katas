@@ -27,6 +27,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [18: rest - as-parameter](#18-rest---as-parameter-)
 - [19: rest - with-destructuring](#19-rest---with-destructuring-)
 - [20: spread - with-arrays](#20-spread---with-arrays-)
+- [21: spread - with-strings](#21-spread---with-strings-)
 
 ## 1: template strings - basic [🔝](#list-of-katas)
 ```javascript
@@ -887,6 +888,45 @@ describe('spread with arrays', () => {
       assert.equal(max, 42);
     });
   });  
+});
+
+```
+
+## 21: spread - with-strings [🔝](#list-of-katas)
+```javascript
+// 21: spread - with-strings
+// To do: make all tests pass, leave the assert lines unchanged!
+
+describe('spread with strings', () => {
+
+  it('simply spread each char of a string', function() {
+    const [a,b] = [...'ab'];
+    assert.equal(a, 'a');
+    assert.equal(b, 'b');
+  });
+
+  it('extracts each array item', function() {
+    const [c,a,b] = ['a', ...'12'];
+    assert.equal(a, 1);
+    assert.equal(b, 2);
+    assert.equal(c, 'a');
+  });
+  
+  it('works anywhere inside an array (must not be last)', function() {
+    const letters = ['a', ...'bcd', 'e', 'f'];
+    assert.equal(letters.length, 6);
+  });
+  
+  it('dont confuse with the rest operator', function() {
+    const [...rest] = [...'1234',...'5'];
+    assert.deepEqual(rest, [1, 2, 3, 4, 5]);
+  });
+  
+  it('passed as function parameter', function() {
+    const max = Math.max(...'12345');
+    assert.deepEqual(max, 5);
+  });
+  
 });
 
 ```

@@ -7,8 +7,8 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 
 ## List of katas
 
-- [1: template strings - basic](es6katas/blob/master/template-strings/1-basic/1-template-strings-basic-resolved.js)
-- [2: template strings - multiline](es6katas/blob/master/template-strings/2-multiline/2-template-strings-multiline.js)
+- [1: template strings - basic](/nothnk/es6katas/blob/master/template-strings/1-basic/1-template-strings-basic-resolved.js)
+- [2: template strings - multiline](/nothnk/es6katas/blob/master/template-strings/2-multiline/2-template-strings-multiline.js)
 - [3: template strings - tagged](#3-template-strings---tagged-)
 - [4: template strings - String.raw](#4-template-strings---String.raw-)
 - [5: arrow functions - basics](#5-arrow-functions---basics-)

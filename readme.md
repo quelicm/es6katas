@@ -12,7 +12,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [3: template strings - tagged](https://github.com/nothnk/es6katas/blob/master/template-strings/3-tagged/3-template-strings-tagged.js)
 - [4: template strings - String.raw](https://github.com/nothnk/es6katas/blob/master/template-strings/4-string-raw/4-template-strings-String.raw.js)
 - [5: arrow functions - basics](https://github.com/nothnk/es6katas/blob/master/arrow-functions/5-basic/5-arrow-functions-basics.js)
-- [6: arrow functions - binding](#6-arrow-functions---binding-)
+- [6: arrow functions - binding](https://github.com/nothnk/es6katas/blob/master/arrow-functions/6-binding/6-arrow-functions-binding.js)
 - [7: block scope - let](#7-block-scope---let-)
 - [8: block scope - const](#8-block-scope---const-)
 - [9: object-literals - basics](#9-object-literals---basics-)

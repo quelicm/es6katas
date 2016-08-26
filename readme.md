@@ -15,7 +15,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [6: arrow functions - binding](https://github.com/nothnk/es6katas/blob/master/arrow-functions/6-binding/6-arrow-functions-binding.js)
 - [7: block scope - let](https://github.com/nothnk/es6katas/blob/master/block-scope/7-let/7-block-scope-let.js)
 - [8: block scope - const](https://github.com/nothnk/es6katas/blob/master/block-scope/8-const/8-block-scope-const.js)
-- [9: object-literals - basics](#9-object-literals---basics-)
+- [9: object-literals - basics](https://github.com/nothnk/es6katas/blob/master/object-literals/9-basics/9-object-literals-basics.js)
 - [10: destructuring - array](#10-destructuring---array-)
 - [11: destructuring - string](#11-destructuring---string-)
 - [12: destructuring - object](#12-destructuring---object-)

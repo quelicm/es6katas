@@ -17,7 +17,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [8: block scope - const](https://github.com/nothnk/es6katas/blob/master/block-scope/8-const/8-block-scope-const.js)
 - [9: object-literals - basics](https://github.com/nothnk/es6katas/blob/master/object-literals/9-basics/9-object-literals-basics.js)
 - [10: destructuring - array](https://github.com/nothnk/es6katas/blob/master/destructuring/10-array/10-destructuring-array.js)
-- [11: destructuring - string](#11-destructuring---string-)
+- [11: destructuring - string](https://github.com/nothnk/es6katas/blob/master/destructuring/11-string/11-destructuring-string.js)
 - [12: destructuring - object](#12-destructuring---object-)
 - [13: destructuring - defaults](#13-destructuring---defaults-)
 - [14: destructuring - parameters](#14-destructuring---parameters-)
@@ -40,28 +40,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 
 ## 11: destructuring - string [🔝](#list-of-katas)
 ````javascript
-// 11: destructuring - string
-// To do: make all tests pass, leave the assert lines unchanged!
 
-describe('destructuring also works on strings', () => {
-
-  
-  it('destructure every character', () => {
-    let [a, b, c] = 'abc';
-    assert.deepEqual([a, b, c], ['a', 'b', 'c']);
-  });
-  
-  it('missing characters are undefined', () => {
-    const [a, c] = 'a';
-    assert.equal(c, void 0);
-  });
-  
-  it('unicode character work too', () => {
-    const [space, coffee] = 'a☕';
-    assert.equal(coffee, '\u{2615}');
-  });
-  
-});
 ````
 
 ## 12: destructuring - object [🔝](#list-of-katas)

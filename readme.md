@@ -21,7 +21,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [12: destructuring - object](https://github.com/nothnk/es6katas/blob/master/destructuring/12-destructuring-object.js)
 - [13: destructuring - defaults](https://github.com/nothnk/es6katas/blob/master/destructuring/13-destructuring-defaults.js)
 - [14: destructuring - parameters](https://github.com/nothnk/es6katas/blob/master/destructuring/14-destructuring-parameters.js)
-- [15: destructuring - assign](#15-destructuring---assign-)
+- [15: destructuring - assign](https://github.com/nothnk/es6katas/blob/master/destructuring/15-destructuring-assign.js)
 - [16: object-literal - computed properties](#16-object-literal---computed-properties-)
 - [17: unicode - in strings](#17-unicode---in-strings-)
 - [18: rest - as-parameter](#18-rest---as-parameter-)
@@ -38,43 +38,6 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [29: array - `Array.from` static method](#29-array---Arrayfrom-static-method-)
 - [30: array - `Array.of` static method](#30-array---Array-of--static method-)
 
-## 15: destructuring - assign [🔝](#list-of-katas)
-```javascript
-// 15: destructuring - assign
-// To do: make all tests pass, leave the assert lines unchanged!
-
-describe('assign object property values to new variables while destructuring', () => {
-
-  describe('for simple objects', function() {
-    it('use a colon after the property name, like so `propertyName: newName`', () => {
-      const {x: y} = {x: 1};
-      assert.equal(y, 1);
-    });
-    
-    it('assign a new name and give it a default value using `= <default value>`', () => {
-      const {x: y=42} = {y: 23};
-      assert.equal(y, 42);
-    });
-  });
-
-  describe('for function parameter names', function() {
-    it('do it the same way, with a colon behind it', () => {
-      const fn = ({x: y}) => {
-        assert.equal(y, 1);
-      };
-      fn({x: 1});
-    });
-    
-    it('giving it a default value is possible too, like above', () => {
-      const fn = ({x: y=3}) => {
-        assert.equal(y, 3);
-      };
-      fn({});
-    });
-  });
-  
-});
-```
 ## 16: object-literal - computed properties [🔝](#list-of-katas)
 ```javascript
 // 16: object-literal - computed properties

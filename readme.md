@@ -22,7 +22,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [13: destructuring - defaults](https://github.com/nothnk/es6katas/blob/master/destructuring/13-destructuring-defaults.js)
 - [14: destructuring - parameters](https://github.com/nothnk/es6katas/blob/master/destructuring/14-destructuring-parameters.js)
 - [15: destructuring - assign](https://github.com/nothnk/es6katas/blob/master/destructuring/15-destructuring-assign.js)
-- [16: object-literal - computed properties](#16-object-literal---computed-properties-)
+- [16: object-literals - computed properties](https://github.com/nothnk/es6katas/blob/master/destructuring/16-object-literal-computed-properties.js)
 - [17: unicode - in strings](#17-unicode---in-strings-)
 - [18: rest - as-parameter](#18-rest---as-parameter-)
 - [19: rest - with-destructuring](#19-rest---with-destructuring-)
@@ -38,45 +38,6 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [29: array - `Array.from` static method](#29-array---Arrayfrom-static-method-)
 - [30: array - `Array.of` static method](#30-array---Array-of--static method-)
 
-## 16: object-literal - computed properties [🔝](#list-of-katas)
-```javascript
-// 16: object-literal - computed properties
-// To do: make all tests pass, leave the assert lines unchanged!
-
-describe('Object literal properties may be computed values', () => {
-
-  it('a computed property `x` needs to be surrounded by `[]`', () => {
-    const propertyName = 'x';
-    const obj = {[propertyName]: 1};
-    assert.equal(obj.x, 1);
-  });
-
-  it('can also get a function assigned', () => {
-    const key = 'func';
-    const obj = {[key]() { return 'seven'}};
-    assert.equal(obj.func(), 'seven');
-  });
-
-  it('the key may also be the result of a function call', () => {
-    const getName = () => 'propertyName';
-    const obj = {[[getName()]]() {return 'seven'}};
-    assert.equal(obj.propertyName(), 'seven');
-  });
-
-  it('the key can also be constructed by an expression', () => {
-    const what = 'Name';
-    const obj = {['property' + what]: null};
-    assert.equal('propertyName' in obj, true);
-  });
-
-  it('accessor keys can be computed names too', () => {
-    const obj = {
-      get ['key']() {return 1}
-    };
-    assert.equal(obj.key, 1);
-  });
-});
-``` 
 ## 17: unicode - in strings [🔝](#list-of-katas)
 ```javascript
 // 17: unicode - in strings

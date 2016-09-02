@@ -19,7 +19,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [10: destructuring - array](https://github.com/nothnk/es6katas/blob/master/destructuring/10-array/10-destructuring-array.js)
 - [11: destructuring - string](https://github.com/nothnk/es6katas/blob/master/destructuring/11-string/11-destructuring-string.js)
 - [12: destructuring - object](https://github.com/nothnk/es6katas/blob/master/destructuring/12-destructuring-object.js)
-- [13: destructuring - defaults](#13-destructuring---defaults-)
+- [13: destructuring - defaults](https://github.com/nothnk/es6katas/blob/master/destructuring/13-destructuring-defaults.js)
 - [14: destructuring - parameters](#14-destructuring---parameters-)
 - [15: destructuring - assign](#15-destructuring---assign-)
 - [16: object-literal - computed properties](#16-object-literal---computed-properties-)
@@ -38,43 +38,6 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [29: array - `Array.from` static method](#29-array---Arrayfrom-static-method-)
 - [30: array - `Array.of` static method](#30-array---Array-of--static method-)
 
-
-
-## 13: destructuring - defaults [🔝](#list-of-katas)
-```javascript
-// 13: destructuring - defaults
-// To do: make all tests pass, leave the assert lines unchanged!
-
-describe('destructuring can also have default values', () => {
-
-  it('for an empty array', () => {
-    const [a=1] = [];
-    assert.equal(a, 1);
-  });
-
-  it('for a missing value', () => {
-    const [a,b=2,c] = [1,,3];
-    assert.equal(b, 2);
-  });
-
-  it('in an object', () => {
-    const {a, b=2} = {a: 1};
-    assert.equal(b, 2);
-  });
-
-  it('if the value is undefined', () => {
-    const {a, b=2} = {a: 1, b: void 0};
-    assert.strictEqual(b, 2);
-  });
-
-  it('also a string works with defaults', () => {
-    const [a,b=2] = '1';
-    assert.equal(a, '1');
-    assert.equal(b, 2);
-  });
-
-});
-```
 
 ## 14: destructuring - parameters [🔝](#list-of-katas)
 ```javascript

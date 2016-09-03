@@ -30,7 +30,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [21: spread - with-strings](https://github.com/nothnk/es6katas/blob/master/spread/21-with-strings/21-spread-with-string.js)
 - [22: class - creation](https://github.com/nothnk/es6katas/blob/master/class/22-creation/22-class-creation.js)
 - [23: class - accessors](https://github.com/nothnk/es6katas/blob/master/class/23-accessors/23-class-accessors.js)
-- [24: class - static keyword](#24-class---static-keyword-)
+- [24: class - static keyword](https://github.com/nothnk/es6katas/blob/master/class/24-static-keyword/24-class-static-keyword.js)
 - [25: class - extends](#25-class---extends-)
 - [26: class - more-extends](#26-class---more-extends-)
 - [27: class - super inside a method](#27-class---super-inside-a-method-)
@@ -38,59 +38,6 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [29: array - `Array.from` static method](#29-array---Arrayfrom-static-method-)
 - [30: array - `Array.of` static method](#30-array---Array-of--static method-)
 
-
-## 24: class - static keyword [🔝](#list-of-katas)
-```javascript
-// 24: class - static keyword
-// To do: make all tests pass, leave the assert lines unchanged!
-
-describe('inside a class you can use the `static` keyword', () => {
-
-  describe('for methods', () => {
-    
-    class IntegrationTest {}
-    class UnitTest {}
-    
-    it('a static method just has the prefix `static`', () => {
-      class TestFactory {
-        static makeTest() { return new UnitTest(); }
-      }
-      
-      assert.ok(TestFactory.makeTest() instanceof UnitTest);
-    });
-  
-    it('the method name can be dynamic/computed at runtime', () => {
-      const methodName = 'createTest';
-      class TestFactory {
-        static [methodName]() { return new UnitTest(); }
-      }
-      
-      assert.ok(TestFactory.createTest() instanceof UnitTest);
-    });
-  });
-  
-  describe('for accessors', () => {
-    it('a getter name can be static, just prefix it with `static`', () => {
-      class UnitTest {
-        static get testType() { return 'unit'; }
-      }
-      
-      assert.equal(UnitTest.testType, 'unit');
-    });
-    
-    it('even a static getter name can be dynamic/computed at runtime', () => {
-      const type = 'test' + 'Type';
-      class IntegrationTest {
-        static get [type]() { return 'integration'; }
-      }
-      
-      assert.ok('testType' in IntegrationTest);
-      assert.equal(IntegrationTest.testType, 'integration');
-    });
-  });
-  
-});
-```
 
 ## 25: class - extends [🔝](#list-of-katas)
 ```javascript

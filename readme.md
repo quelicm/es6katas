@@ -29,7 +29,7 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [20: spread - with-arrays](https://github.com/nothnk/es6katas/blob/master/spread/20-with-arrays/20-spread-with-arrays.js)
 - [21: spread - with-strings](https://github.com/nothnk/es6katas/blob/master/spread/21-with-strings/21-spread-with-string.js)
 - [22: class - creation](https://github.com/nothnk/es6katas/blob/master/class/22-creation/22-class-creation.js)
-- [23: class - accessors](#23-class---accessors-)
+- [23: class - accessors](https://github.com/nothnk/es6katas/blob/master/class/23-accessors/23-class-accessors.js)
 - [24: class - static keyword](#24-class---static-keyword-)
 - [25: class - extends](#25-class---extends-)
 - [26: class - more-extends](#26-class---more-extends-)
@@ -38,58 +38,6 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [29: array - `Array.from` static method](#29-array---Arrayfrom-static-method-)
 - [30: array - `Array.of` static method](#30-array---Array-of--static method-)
 
-## 23: class - accessors [🔝](#list-of-katas)
-```javascript
-// 23: class - accessors
-// To do: make all tests pass, leave the assert lines unchanged!
-
-describe('class accessors (getter and setter)', () => {
-
-  it('only a getter is defined like a method prefixed with `get`', () => {
-    class MyAccount {
-      get balance() { return Infinity; }
-    }
-    
-    assert.equal(new MyAccount().balance, Infinity);
-  });
-
-  it('a setter has the prefix `set`', () => {
-    class MyAccount {
-      get balance() { return this.amount; }
-      set balance(amount) { this.amount = amount; }
-    }
-    
-    const account = new MyAccount();
-    account.balance = 23;
-    assert.equal(account.balance, 23);
-  });
-  
-  describe('dynamic accessors', () => {
-    
-    it('a dynamic getter name is enclosed in [ and ]', function() {
-      const balance = 'yourMoney';
-      class YourAccount {
-        get [balance]() { return -Infinity; }
-      }
-      
-      assert.equal(new YourAccount().yourMoney, -Infinity);
-    });
-    
-    it('a dynamic setter name as well', function() {
-      const propertyName = 'balance';
-      class MyAccount {
-        get [propertyName]() { return this.amount; }
-        set [propertyName](amount) { this.amount = 23; }
-      }
-      
-      const account = new MyAccount();
-      account.balance = 42;
-      assert.equal(account.balance, 23);
-    });
-  });
-  
-});
-```
 
 ## 24: class - static keyword [🔝](#list-of-katas)
 ```javascript

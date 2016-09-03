@@ -37,3 +37,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [28: class - super in constructor](https://github.com/nothnk/es6katas/blob/master/class/28-super-in-constructor/28-class-super-in-constructor.js)
 - [29: array - `Array.from` static method](https://github.com/nothnk/es6katas/blob/master/array/29-array-from/29-array-from-static-method.js)
 - [30: array - `Array.of` static method](https://github.com/nothnk/es6katas/blob/master/array/30-array-of/30-array-of-static-method.js)
+- [31: array - `Array.prototype.fill` method](https://github.com/nothnk/es6katas/blob/master/array/31-array-fill/31-array-prototype-fill.js)

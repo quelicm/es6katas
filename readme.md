@@ -38,3 +38,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [29: array - `Array.from` static method](https://github.com/nothnk/es6katas/blob/master/array/29-array-from/29-array-from-static-method.js)
 - [30: array - `Array.of` static method](https://github.com/nothnk/es6katas/blob/master/array/30-array-of/30-array-of-static-method.js)
 - [31: array - `Array.prototype.fill` method](https://github.com/nothnk/es6katas/blob/master/array/31-array-fill/31-array-prototype-fill.js)
+- [32: array - `Array.prototype.find` method](https://github.com/nothnk/es6katas/blob/master/array/32-array-find/32-array-prototype-find.js)

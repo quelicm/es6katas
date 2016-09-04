@@ -41,3 +41,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [32: array - `Array.prototype.find` method](https://github.com/nothnk/es6katas/blob/master/array/32-array-find/32-array-prototype-find.js)
 - [33: array - `Array.prototype.findIndex`](https://github.com/nothnk/es6katas/blob/master/array/33-array-findindex/33-array-prototype-findindex.js)
 - [34: symbol - basics](https://github.com/nothnk/es6katas/blob/master/symbol/34-basics/34-symbol-basics.js)
+- [35: symbol - for](https://github.com/nothnk/es6katas/blob/master/symbol/35-symbol-for/35-symbol-for.js)

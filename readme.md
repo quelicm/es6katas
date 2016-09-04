@@ -45,4 +45,5 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [36: symbol - keyfor](https://github.com/nothnk/es6katas/blob/master/symbol/36-symbol-keyfor/36-symbol-keyfor.js)
 - [37: iterator/iterable - array](https://github.com/nothnk/es6katas/blob/master/iterator/37-array/37-iterator-array.js)
 - [38: iterator/iterable - string](https://github.com/nothnk/es6katas/blob/master/iterator/38-string/38-iterator-string.js)
-- [38: iterator/iterable - protocol](https://github.com/nothnk/es6katas/blob/master/iterator/39-protocol/39-iterator-protocol.js)
+- [39: iterator/iterable - protocol](https://github.com/nothnk/es6katas/blob/master/iterator/39-protocol/39-iterator-protocol.js)
+- [40: iterator/iterable - usage](https://github.com/nothnk/es6katas/blob/master/iterator/40-usage/40-iterator-usage.js)

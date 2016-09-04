@@ -43,4 +43,5 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [34: symbol - basics](https://github.com/nothnk/es6katas/blob/master/symbol/34-basics/34-symbol-basics.js)
 - [35: symbol - for](https://github.com/nothnk/es6katas/blob/master/symbol/35-symbol-for/35-symbol-for.js)
 - [36: symbol - keyfor](https://github.com/nothnk/es6katas/blob/master/symbol/36-symbol-keyfor/36-symbol-keyfor.js)
-- [37: iterator/iterable - array.](https://github.com/nothnk/es6katas/blob/master/iterator/37-array/37-iterator-array.js)
+- [37: iterator/iterable - array](https://github.com/nothnk/es6katas/blob/master/iterator/37-array/37-iterator-array.js)
+- [38: iterator/iterable - string](https://github.com/nothnk/es6katas/blob/master/iterator/38-string/38-iterator-string.js)

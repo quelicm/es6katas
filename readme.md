@@ -52,3 +52,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [43: array - `Array.prototype.values`](https://github.com/nothnk/es6katas/blob/master/array/43-array-values/43-array-prototype-values.js)
 - [44: Map - basics](https://github.com/nothnk/es6katas/blob/master/map/44-map-basics/44-map-basics.js)
 - [45: Map.prototype.get()](https://github.com/nothnk/es6katas/blob/master/map/45-map-get/45-map-get.js)
+- [46: Map.prototype.set()](https://github.com/nothnk/es6katas/blob/master/map/46-map-set/46-map-set.js)

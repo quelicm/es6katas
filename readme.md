@@ -47,3 +47,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [38: iterator/iterable - string](https://github.com/nothnk/es6katas/blob/master/iterator/38-string/38-iterator-string.js)
 - [39: iterator/iterable - protocol](https://github.com/nothnk/es6katas/blob/master/iterator/39-protocol/39-iterator-protocol.js)
 - [40: iterator/iterable - usage](https://github.com/nothnk/es6katas/blob/master/iterator/40-usage/40-iterator-usage.js)
+- [41: array - entries](https://github.com/nothnk/es6katas/blob/master/array/41-array-entries/41-array-entries.js)

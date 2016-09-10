@@ -56,3 +56,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [47: Set - basics](https://github.com/nothnk/es6katas/blob/master/set/47-set-basics/47-set-basics.js)
 - [48: Set - add](https://github.com/nothnk/es6katas/blob/master/set/48-set-add/48-set-add.js)
 - [49: Generator - creation](https://github.com/nothnk/es6katas/blob/master/generator/49-creation/49-generator-creation.js)
+- [50: Generator - iterator](https://github.com/nothnk/es6katas/blob/master/generator/50-iterator/50-generator-iterator.js)

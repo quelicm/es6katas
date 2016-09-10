@@ -57,3 +57,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [48: Set - add](https://github.com/nothnk/es6katas/blob/master/set/48-set-add/48-set-add.js)
 - [49: Generator - creation](https://github.com/nothnk/es6katas/blob/master/generator/49-creation/49-generator-creation.js)
 - [50: Generator - iterator](https://github.com/nothnk/es6katas/blob/master/generator/50-iterator/50-generator-iterator.js)
+- [51: Generator - Yield Expressions](https://github.com/nothnk/es6katas/blob/master/generator/51-yield-expressions/51-generator-yield-expression.js)

@@ -61,3 +61,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [52: Generator - Send value to a generator](https://github.com/nothnk/es6katas/blob/master/generator/52-send-value/52-generator-send-value-tu-a-generator.js)
 - [53: Map - initialize](https://github.com/nothnk/es6katas/blob/master/map/53-initialize/53-map-initialize.js)
 - [54: Object - is](https://github.com/nothnk/es6katas/blob/master/object/54-object-is/54-object-is.js)
+- [55: Number - isInteger](https://github.com/nothnk/es6katas/blob/master/number/55-isInteger/55-isInteger.js)

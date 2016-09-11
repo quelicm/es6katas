@@ -59,3 +59,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [50: Generator - iterator](https://github.com/nothnk/es6katas/blob/master/generator/50-iterator/50-generator-iterator.js)
 - [51: Generator - Yield Expressions](https://github.com/nothnk/es6katas/blob/master/generator/51-yield-expressions/51-generator-yield-expression.js)
 - [52: Generator - Send value to a generator](https://github.com/nothnk/es6katas/blob/master/generator/52-send-value/52-generator-send-value-tu-a-generator.js)
+- [53: Map - initialize](https://github.com/nothnk/es6katas/blob/master/map/53-initialize/53-map-initialize.js)

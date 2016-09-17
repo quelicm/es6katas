@@ -62,4 +62,5 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [53: Map - initialize](https://github.com/nothnk/es6katas/blob/master/map/53-initialize/53-map-initialize.js)
 - [54: Object - is](https://github.com/nothnk/es6katas/blob/master/object/54-object-is/54-object-is.js)
 - [55: Number - isInteger](https://github.com/nothnk/es6katas/blob/master/number/55-isInteger/55-isInteger.js)
-- [56: Generator - Send function to a generator](https://github.com/nothnk/es6katas/blob/master/gerenator/56-function-to-generator/56-function-to-generator.js)
+- [56: Generator - Send function to a generator](https://github.com/nothnk/es6katas/blob/master/generator/56-function-to-generator/56-function-to-generator.js)
+- [57: Default parameters - basics](https://github.com/nothnk/es6katas/blob/master/default-parameters/57-basic/57-default-parameters-basic.js)

@@ -64,3 +64,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [55: Number - isInteger](https://github.com/nothnk/es6katas/blob/master/number/55-isInteger/55-isInteger.js)
 - [56: Generator - Send function to a generator](https://github.com/nothnk/es6katas/blob/master/generator/56-function-to-generator/56-function-to-generator.js)
 - [57: Default parameters - basics](https://github.com/nothnk/es6katas/blob/master/default-parameters/57-basic/57-default-parameters-basic.js)
+- [58: Reflect - basics](https://github.com/nothnk/es6katas/blob/master/reflect/58-basics/58-reflect-basics.js)

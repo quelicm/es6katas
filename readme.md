@@ -66,3 +66,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [57: Default parameters - basics](https://github.com/nothnk/es6katas/blob/master/default-parameters/57-basic/57-default-parameters-basic.js)
 - [58: Reflect - basics](https://github.com/nothnk/es6katas/blob/master/reflect/58-basics/58-reflect-basics.js)
 - [59: Reflect - apply](https://github.com/nothnk/es6katas/blob/master/reflect/59-apply/59-reflect-apply.js)
+- [60: Reflect - getPrototypeOf](https://github.com/nothnk/es6katas/blob/master/reflect/60-getprototypeof/60-reflect-getprototypeof.js)

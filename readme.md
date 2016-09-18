@@ -70,3 +70,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [61: modules - import](https://github.com/nothnk/es6katas/blob/master/modules/61-import/61-import.js)
 - [62: Map - `has()`](https://github.com/nothnk/es6katas/blob/master/map/62-map-has/62-map-has.js)
 - [63: String - `includes()`](https://github.com/nothnk/es6katas/blob/master/string/63-includes/63-string-includes.js)
+- [64: Set - delete](https://github.com/nothnk/es6katas/blob/master/set/64-delete/64-set-delete.js)

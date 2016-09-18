@@ -68,3 +68,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [59: Reflect - apply](https://github.com/nothnk/es6katas/blob/master/reflect/59-apply/59-reflect-apply.js)
 - [60: Reflect - getPrototypeOf](https://github.com/nothnk/es6katas/blob/master/reflect/60-getprototypeof/60-reflect-getprototypeof.js)
 - [61: modules - import](https://github.com/nothnk/es6katas/blob/master/modules/61-import/61-import.js)
+- [62: Map - `has()`](https://github.com/nothnk/es6katas/blob/master/map/62-map-has/62-map-has.js)

@@ -72,3 +72,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [63: String - `includes()`](https://github.com/nothnk/es6katas/blob/master/string/63-includes/63-string-includes.js)
 - [64: Set - delete](https://github.com/nothnk/es6katas/blob/master/set/64-delete/64-set-delete.js)
 - [65: Set - API overview](https://github.com/nothnk/es6katas/blob/master/set/65-api/65-set-api-overview.js)
+- [66: object-literal - getter](https://github.com/nothnk/es6katas/blob/master/object-literals/66-getter/66-object-literal-getter.js)

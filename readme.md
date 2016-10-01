@@ -79,3 +79,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [70: Set - clear](https://github.com/nothnk/es6katas/blob/master/set/70-clear/70-set-clear.js)
 - [71: String - `repeat()`](https://github.com/nothnk/es6katas/blob/master/string/71-repeat/71-string-repeat.js)
 - [72: String - `startsWith()`](https://github.com/nothnk/es6katas/blob/master/string/72-startsWith/72-string-startsWith.js)
+- [73: Generator - `return` inside a generator is special](https://github.com/nothnk/es6katas/blob/master/generator/73-return/73-generator-return.js)

@@ -76,3 +76,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [67: object-literal - setter](https://github.com/nothnk/es6katas/blob/master/object-literals/67-setter/67-object-literal-setter.js)
 - [68: Reflect - construct](https://github.com/nothnk/es6katas/blob/master/reflect/68-construct/68-reflect-construct.js)
 - [69: Reflect - defineProperty](https://github.com/nothnk/es6katas/blob/master/reflect/69-defineproperty/69-reflect-defineproperty.js)
+- [70: Set - clear](https://github.com/nothnk/es6katas/blob/master/set/70-clear/70-set-clear.js)

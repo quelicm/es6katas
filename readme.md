@@ -81,3 +81,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [72: String - `startsWith()`](https://github.com/nothnk/es6katas/blob/master/string/72-startsWith/72-string-startsWith.js)
 - [73: Generator - `return` inside a generator is special](https://github.com/nothnk/es6katas/blob/master/generator/73-return/73-generator-return.js)
 - [74: String - `endsWith()`](https://github.com/nothnk/es6katas/blob/master/string/74-endsWith/74-string-endsWith.js)
+- [75: Promise - basics ](https://github.com/nothnk/es6katas/blob/master/promise/75-basics/75-promise-basics.js)

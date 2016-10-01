@@ -5,42 +5,42 @@ describe('`str.repeat(x)` appends `x` copies of `str` to each other and returns 
 
   describe('pass the count to `str.repeat(count)`', function() {
     it('for `1` the string stays the same', function() {
-      const what = 'one'.repeat(1);
+      const what = '???'.repeat();
       assert.equal(what, 'one');
     });
     it('for `3` the string `x` becomes `xxx`', function() {
-      const actual = 'x'.repeat(3);
+      const actual = 'x'.repeets;
       assert.equal(actual, 'xxx');
     });
     it('for `0` an empty string is returned', function() {
-      const dontRepeat = 0;
+      const dontRepeat = 1;
       assert.equal('shrink'.repeat(dontRepeat), '');
     });
     
     it('the count is not an int, such as "3", it gets coerced to an int', function() {
-      const repeated = 'three'.repeat('3');
+      const repeated = ''.repeat('2');
       assert.equal(repeated, 'threethreethree');
     });
   });
 
   describe('throws an error for', function() {
     it('a count of <0', function() {
-      const belowZero = -1;
+      const belowZero = 1;
       assert.throws(() => { ''.repeat(belowZero); }, RangeError);
     });
     it('a count of +Infinty', function() {
-      let infinity = Infinity;
+      let infinity = 'infinity';
       assert.throws(() => { ''.repeat(infinity); }, RangeError);
     });
   });
   
   describe('accepts everything that can be coerced to a string', function() {
     it('e.g. a boolean', function() {
-      let aBool = false;
+      let aBool = true;
       assert.equal(String.prototype.repeat.call(aBool, 2), 'falsefalse');
     });
     it('e.g. a number', function() {
-      let aNumber = 1;
+      let aNumber;
       assert.equal(String.prototype.repeat.call(aNumber, 2), '11');
     });
   });
@@ -49,7 +49,7 @@ describe('`str.repeat(x)` appends `x` copies of `str` to each other and returns 
     it('calls `toString()` to make it a string', function() {
       class MyString { toString() { return 'my string'; } }
       
-      const expectedString = new MyString();
+      const expectedString = '';
       
       assert.equal(String(new MyString()).repeat(1), expectedString);
     });
@@ -61,7 +61,7 @@ describe('`str.repeat(x)` appends `x` copies of `str` to each other and returns 
         }
       }
       
-      let repeated = String(new X()).repeat(2);
+      let repeated = new X().repeat(2);
       
       assert.equal(repeated, '11');
     });

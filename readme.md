@@ -83,3 +83,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [74: String - `endsWith()`](https://github.com/nothnk/es6katas/blob/master/string/74-endsWith/74-string-endsWith.js)
 - [75: Promise - basics ](https://github.com/nothnk/es6katas/blob/master/promise/75-basics/75-promise-basics.js)
 - [76: Promise - creation](https://github.com/nothnk/es6katas/blob/master/promise/76-creation/76-promise-creation.js)
+- [77: Promise - chaining](https://github.com/nothnk/es6katas/blob/master/promise/77-chaining/77-promise-chaining.js)

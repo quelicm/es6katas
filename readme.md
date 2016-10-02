@@ -85,3 +85,4 @@ You can try these solutions directly from tdbin [tddbin](http://tddbin.com/) sim
 - [76: Promise - creation](https://github.com/nothnk/es6katas/blob/master/promise/76-creation/76-promise-creation.js)
 - [77: Promise - chaining](https://github.com/nothnk/es6katas/blob/master/promise/77-chaining/77-promise-chaining.js)
 - [78: Promise - API overview](https://github.com/nothnk/es6katas/blob/master/promise/78-api/78-api-overview.js)
+- [79: Promise - catch](https://github.com/nothnk/es6katas/blob/master/promise/79-catch/79-promise-catch.js)
